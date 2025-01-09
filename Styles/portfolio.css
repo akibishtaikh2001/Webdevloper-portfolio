@@ -76,9 +76,9 @@ nav a {
     justify-content: space-between;
 }
 
-/* .banner_content {
+.banner_content {
     max-width: 500px;
-} */
+}
 
 .banner .profile_pic {
     width: 500px;
