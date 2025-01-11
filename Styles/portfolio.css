@@ -64,9 +64,10 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+  
 }
 
 .banner {
@@ -74,11 +75,13 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
 }
 
-.banner_content {
+/* .banner_content {
     max-width: 500px;
-}
+  
+} */
 
 .banner .profile_pic {
     width: 500px;
@@ -99,6 +102,8 @@ nav a {
 
 .banner_discription {
     margin-bottom: 20px;
+    color:#757575;
+    font-weight: 400;
 }
 
 /* main section styles */
